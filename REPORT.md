@@ -7,8 +7,8 @@
 | Участник | Роль                         | GitHub          | Ветка / вклад |
 |----------|------------------------------|-----------------|---------------|
 | Хря Гле  | Архитектор / Tech Lead       | `zxc6451000-7`  | `dev`, `docs/integration-report`: контракт, CI, ревью, разрешение конфликта, интеграционные тесты, отчёт |
-| Ив Вик   | Backend Task Service         | `VazelinInside` | `feature/tasks-service`: модели, хранилище, CRUD API, тесты API; открыл PR #1, ревью PR #2, #3, `dev` → `main` |
-| Рог Вад  | Backend Task Service         | `Snakered7736`  | `feature/tasks-service`: вебхук-клиент, очередь повторов, тесты доставки, контракт v1.1, исправление по ревью |
+| Ив Вик   | Backend Task Service         | `VazelinInside` | `feature/tasks-service`: модели, хранилище, CRUD API, тесты API; открыл PR #1 и внёс исправление по ревью, ревью PR #2, #3, `dev` → `main` |
+| Рог Вад  | Backend Task Service         | `Snakered7736`  | `feature/tasks-service`: вебхук-клиент, очередь повторов, тесты доставки, контракт v1.1 |
 | Кул Ник  | Backend Notification Service | нет             | `feature/notifications-service`: приём вебхука, лог уведомлений, защита от дублей, контракт v1.2 |
 
 У Кул Ника нет аккаунта GitHub, поэтому действий в интерфейсе GitHub от него не требовалось:
@@ -27,7 +27,7 @@
    созданных от `dev`. Каждый разработчик дописал в раздел 4.2 контракта свою часть.
 4. **Интеграция.**
    - PR #1 `feature/tasks-service` → `dev` (открыл Ив Вик): Tech Lead запросил изменения
-     (пример curl в README сервиса), Рог Вад внёс исправление, PR одобрен и смержен.
+     (пример curl в README сервиса), Ив Вик внёс исправление, PR одобрен и смержен.
    - `feature/notifications-service`: `git pull --rebase origin dev` → **конфликт** в `API_CONTRACT.md`.
    - Конфликт разрешён вручную (раздел 3), `git rebase --continue`, `git push --force-with-lease`.
    - PR #2 → `dev` (открыл Tech Lead за Кул Ника): ревью Ив Вик, смержен.
