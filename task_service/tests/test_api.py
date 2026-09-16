@@ -3,12 +3,16 @@ from uuid import UUID
 import pytest
 from fastapi.testclient import TestClient
 
+from task_service.config import Settings
 from task_service.main import create_app
+
+# Вебхук уходит на закрытый порт: API-тесты не должны зависеть от Notification Service.
+SETTINGS = Settings(webhook_url="http://127.0.0.1:9/hook", webhook_timeout=0.2, webhook_max_attempts=1)
 
 
 @pytest.fixture
 def client():
-    with TestClient(create_app()) as c:
+    with TestClient(create_app(SETTINGS)) as c:
         yield c
 
 
