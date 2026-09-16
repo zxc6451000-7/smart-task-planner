@@ -1,0 +1,5 @@
+# Tech Lead обязателен на ревью любого изменения.
+*                        @bridge
+/API_CONTRACT.md         @bridge
+/task_service/           @bridge @VazelinInside @Snakered7736
+/notification_service/   @bridge @kul-nik
