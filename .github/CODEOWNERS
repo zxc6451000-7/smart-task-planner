@@ -1,5 +1,6 @@
 # Tech Lead обязателен на ревью любого изменения.
+# Указаны только участники с доступом к репозиторию (см. docs/ROLES.md).
 *                        @bridge
 /API_CONTRACT.md         @bridge
-/task_service/           @bridge @VazelinInside @Snakered7736
-/notification_service/   @bridge @kul-nik
+/task_service/           @bridge @VazelinInside
+/notification_service/   @bridge
