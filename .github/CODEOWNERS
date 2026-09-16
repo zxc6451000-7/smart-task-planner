@@ -1,0 +1,6 @@
+# Tech Lead обязателен на ревью любого изменения.
+# Указаны только участники с доступом к репозиторию (см. docs/ROLES.md).
+*                        @zxc6451000-7
+/API_CONTRACT.md         @zxc6451000-7
+/task_service/           @zxc6451000-7 @VazelinInside
+/notification_service/   @zxc6451000-7
