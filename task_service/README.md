@@ -14,6 +14,12 @@ uvicorn task_service.main:app --port 8000
 
 Swagger UI: <http://localhost:8000/docs>. Состояние и счётчики вебхуков: `GET /health`.
 
+Пример запроса:
+
+```bash
+curl -i -X POST http://localhost:8000/api/tasks -H "Content-Type: application/json" -d '{"title": "Подготовить отчёт"}'
+```
+
 | Переменная окружения       | По умолчанию                                        |
 |----------------------------|-----------------------------------------------------|
 | `NOTIFICATION_WEBHOOK_URL` | `http://localhost:8001/api/webhooks/task_created`   |
