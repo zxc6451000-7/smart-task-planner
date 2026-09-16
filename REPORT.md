@@ -6,7 +6,7 @@
 
 | Участник | Роль                         | GitHub          | Ветка / вклад |
 |----------|------------------------------|-----------------|---------------|
-| Хря Гле  | Архитектор / Tech Lead       | `bridge`        | `dev`, `docs/integration-report`: контракт, CI, ревью, разрешение конфликта, интеграционные тесты, отчёт |
+| Хря Гле  | Архитектор / Tech Lead       | `zxc6451000-7`  | `dev`, `docs/integration-report`: контракт, CI, ревью, разрешение конфликта, интеграционные тесты, отчёт |
 | Ив Вик   | Backend Task Service         | `VazelinInside` | `feature/tasks-service`: модели, хранилище, CRUD API, тесты API; открыл PR #1, ревью PR #2, #3, `dev` → `main` |
 | Рог Вад  | Backend Task Service         | `Snakered7736`  | `feature/tasks-service`: вебхук-клиент, очередь повторов, тесты доставки, контракт v1.1, исправление по ревью |
 | Кул Ник  | Backend Notification Service | нет             | `feature/notifications-service`: приём вебхука, лог уведомлений, защита от дублей, контракт v1.2 |
